@@ -15,6 +15,9 @@
 		05911DAF223D746C00B97B63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05911DAD223D746C00B97B63 /* LaunchScreen.storyboard */; };
 		05911DBA223D746C00B97B63 /* PinFishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05911DB9223D746C00B97B63 /* PinFishTests.swift */; };
 		05911DC5223D746C00B97B63 /* PinFishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05911DC4223D746C00B97B63 /* PinFishUITests.swift */; };
+		42B92781A6D152712FD274E5 /* Pods_PinFishTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5498B3A478F9E5172DEEF516 /* Pods_PinFishTests.framework */; };
+		4AEDF1AD60A40B8ADE5965EB /* Pods_PinFishUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D522E2CE07C7CE0DF679B224 /* Pods_PinFishUITests.framework */; };
+		DA55692135BEE73E7ED1EECA /* Pods_PinFish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF955FDF26C9601AD295F201 /* Pods_PinFish.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		05911DC0223D746C00B97B63 /* PinFishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinFishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05911DC4223D746C00B97B63 /* PinFishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinFishUITests.swift; sourceTree = "<group>"; };
 		05911DC6223D746C00B97B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C32E669DE7A87D81FEDF375 /* Pods-PinFishTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinFishTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PinFishTests/Pods-PinFishTests.release.xcconfig"; sourceTree = "<group>"; };
+		388F167D63528B559E6AEE15 /* Pods-PinFishTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinFishTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PinFishTests/Pods-PinFishTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5498B3A478F9E5172DEEF516 /* Pods_PinFishTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinFishTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7083500A988E76193A39DC2E /* Pods-PinFish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinFish.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PinFish/Pods-PinFish.debug.xcconfig"; sourceTree = "<group>"; };
+		9BE2711773B80D6D7C51E26B /* Pods-PinFishUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinFishUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PinFishUITests/Pods-PinFishUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF955FDF26C9601AD295F201 /* Pods_PinFish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinFish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25D8330E626668E7EE088F1 /* Pods-PinFishUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinFishUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PinFishUITests/Pods-PinFishUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D522E2CE07C7CE0DF679B224 /* Pods_PinFishUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinFishUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F147A4FBF1790E6C766C1F4B /* Pods-PinFish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinFish.release.xcconfig"; path = "Pods/Target Support Files/Pods-PinFish/Pods-PinFish.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA55692135BEE73E7ED1EECA /* Pods_PinFish.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42B92781A6D152712FD274E5 /* Pods_PinFishTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AEDF1AD60A40B8ADE5965EB /* Pods_PinFishUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				05911DB8223D746C00B97B63 /* PinFishTests */,
 				05911DC3223D746C00B97B63 /* PinFishUITests */,
 				05911D9F223D746B00B97B63 /* Products */,
+				881AC8FC81869194AD4E583B /* Pods */,
+				DF9339B97FA2F396DF140D1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,29 @@
 			path = PinFishUITests;
 			sourceTree = "<group>";
 		};
+		881AC8FC81869194AD4E583B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7083500A988E76193A39DC2E /* Pods-PinFish.debug.xcconfig */,
+				F147A4FBF1790E6C766C1F4B /* Pods-PinFish.release.xcconfig */,
+				388F167D63528B559E6AEE15 /* Pods-PinFishTests.debug.xcconfig */,
+				1C32E669DE7A87D81FEDF375 /* Pods-PinFishTests.release.xcconfig */,
+				9BE2711773B80D6D7C51E26B /* Pods-PinFishUITests.debug.xcconfig */,
+				D25D8330E626668E7EE088F1 /* Pods-PinFishUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF9339B97FA2F396DF140D1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF955FDF26C9601AD295F201 /* Pods_PinFish.framework */,
+				5498B3A478F9E5172DEEF516 /* Pods_PinFishTests.framework */,
+				D522E2CE07C7CE0DF679B224 /* Pods_PinFishUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05911DC9223D746C00B97B63 /* Build configuration list for PBXNativeTarget "PinFish" */;
 			buildPhases = (
+				F6D99A43EBA3989B20A520CD /* [CP] Check Pods Manifest.lock */,
 				05911D9A223D746B00B97B63 /* Sources */,
 				05911D9B223D746B00B97B63 /* Frameworks */,
 				05911D9C223D746B00B97B63 /* Resources */,
+				F34D97CDE509DB2B3438EB4E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05911DCC223D746C00B97B63 /* Build configuration list for PBXNativeTarget "PinFishTests" */;
 			buildPhases = (
+				A164827C8BB3C5AC6FE83C19 /* [CP] Check Pods Manifest.lock */,
 				05911DB1223D746C00B97B63 /* Sources */,
 				05911DB2223D746C00B97B63 /* Frameworks */,
 				05911DB3223D746C00B97B63 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05911DCF223D746C00B97B63 /* Build configuration list for PBXNativeTarget "PinFishUITests" */;
 			buildPhases = (
+				111C0489E6020A20AAA61FE4 /* [CP] Check Pods Manifest.lock */,
 				05911DBC223D746C00B97B63 /* Sources */,
 				05911DBD223D746C00B97B63 /* Frameworks */,
 				05911DBE223D746C00B97B63 /* Resources */,
@@ -253,6 +297,83 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		111C0489E6020A20AAA61FE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PinFishUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A164827C8BB3C5AC6FE83C19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PinFishTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F34D97CDE509DB2B3438EB4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PinFish/Pods-PinFish-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PinFish/Pods-PinFish-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6D99A43EBA3989B20A520CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PinFish-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		05911D9A223D746B00B97B63 /* Sources */ = {
@@ -434,6 +555,7 @@
 		};
 		05911DCA223D746C00B97B63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7083500A988E76193A39DC2E /* Pods-PinFish.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +574,7 @@
 		};
 		05911DCB223D746C00B97B63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F147A4FBF1790E6C766C1F4B /* Pods-PinFish.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +593,7 @@
 		};
 		05911DCD223D746C00B97B63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 388F167D63528B559E6AEE15 /* Pods-PinFishTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +615,7 @@
 		};
 		05911DCE223D746C00B97B63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C32E669DE7A87D81FEDF375 /* Pods-PinFishTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +637,7 @@
 		};
 		05911DD0223D746C00B97B63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BE2711773B80D6D7C51E26B /* Pods-PinFishUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +658,7 @@
 		};
 		05911DD1223D746C00B97B63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D25D8330E626668E7EE088F1 /* Pods-PinFishUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
