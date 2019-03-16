@@ -104,5 +104,15 @@ class PinLocationViewController: UIViewController, CLLocationManagerDelegate {
             }
         }
     }
+    
+    //MARK: - Navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "pinLocationSegue" {
+//            let controller = segue.destination as! PinDetailsViewController
+//            controller.coordinate = location!.coordinate
+//            controller.weatherString = weatherString
+//            controller.managedObjectContext = managedObjectContext
+        }
+    }
 }
 

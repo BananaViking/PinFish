@@ -61,7 +61,7 @@
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="nkF-p2-dtM" kind="show" id="zON-3N-65F"/>
+                                    <segue destination="nkF-p2-dtM" kind="show" identifier="pinLocationSegue" id="zON-3N-65F"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mcK-yE-egi">
@@ -103,7 +103,6 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Pin Location" id="Ukc-2C-ShV"/>
                     <connections>
-                        <outlet property="getLocation" destination="mcK-yE-egi" id="Xwe-9s-RJZ"/>
                         <outlet property="getLocationButton" destination="mcK-yE-egi" id="TUk-5i-bFq"/>
                         <outlet property="latitudeLabel" destination="alL-lx-6vA" id="yJi-ki-2c3"/>
                         <outlet property="latitudeTextLabel" destination="Dbk-wB-g8g" id="1Bg-Gc-dRi"/>
